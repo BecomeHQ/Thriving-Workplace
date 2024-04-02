@@ -1,5 +1,7 @@
 console.log('TWC World')
 
+import { gsap } from 'gsap'
+
 import { buttonHoverInteraction } from './buttonHover'
 import { secondFoldIx } from './second-fold'
 import { rocketIx } from './rocket'
@@ -12,6 +14,9 @@ import { benefitsIx } from './section-benefits'
 import { approachIx } from './section-approach'
 
 window.addEventListener('DOMContentLoaded', (event) => {
+  gsap.set('.page-wrapper', {
+    opacity: 1,
+  })
   // Split Type
   let typeSplit
 
@@ -47,6 +52,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
   /**
    * Hover Ix on links & buttons END
    */
+
+  // Keep all functions in order to avoid conflicts between multiple independent scrolltriggers
 
   secondFoldIx()
   approachIx()
