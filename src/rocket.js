@@ -15,6 +15,7 @@ exports.rocketIx = () => {
         start: 'top bottom',
         end: 'bottom top',
         scrub: 1,
+        refreshPriority: 1,
       },
     })
 

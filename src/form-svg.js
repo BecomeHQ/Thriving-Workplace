@@ -17,6 +17,7 @@ exports.formSvgIx = () => {
     transformOrigin: '50% 50%',
     stagger: { from: 'random', amount: 1 },
   })
+  // .from('.form-svg-circle', { y: 0, x: '50%' }, '<')
 
   const formContentTl = gsap.timeline({
     scrollTrigger: {

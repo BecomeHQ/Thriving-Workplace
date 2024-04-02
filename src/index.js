@@ -7,6 +7,9 @@ import { fourthFoldIx } from './fourth-fold'
 import { formSvgIx } from './form-svg'
 import { sectionCertIx } from './section-cert'
 import { sectionStepsIx } from './section-step'
+import { preloaderIx } from './preloader'
+import { benefitsIx } from './section-benefits'
+import { approachIx } from './section-approach'
 
 window.addEventListener('DOMContentLoaded', (event) => {
   // Split Type
@@ -45,46 +48,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
    * Hover Ix on links & buttons END
    */
 
-  /**
-   * 2nd Fold Ix Start
-   */
-
   secondFoldIx()
-
-  /**
-   * 2nd Fold Ix End
-   */
-
-  /**
-   * Rocket Iteraction START
-   */
-
+  approachIx()
   rocketIx()
-
-  /**
-   * Rocket Iteraction END
-   */
-
-  /**
-   * Fourth Fold Ix START
-   */
 
   fourthFoldIx()
 
-  /**
-   * Fourth Fold Ix END
-   */
-
-  /**
-   * Form Svg Ix START
-   */
-
-  formSvgIx()
-
-  /**
-   * Form Svg Ix END
-   */
-
-  sectionCertIx()
+  preloaderIx()
+  benefitsIx()
   sectionStepsIx()
+  sectionCertIx()
+  formSvgIx()
 })
