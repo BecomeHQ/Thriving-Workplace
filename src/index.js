@@ -62,7 +62,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   fourthFoldIx()
 
-  // preloaderIx()
+  preloaderIx()
   benefitsIx()
   sectionBenefitLastContainerIx()
   sectionStepsIx()
