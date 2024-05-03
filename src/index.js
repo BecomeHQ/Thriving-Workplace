@@ -12,6 +12,7 @@ import { sectionStepsIx } from './section-step'
 import { preloaderIx } from './preloader'
 import { benefitsIx } from './section-benefits'
 import { approachIx } from './section-approach'
+import { sectionBenefitLastContainerIx } from './section-benefits-last-container'
 
 window.addEventListener('DOMContentLoaded', (event) => {
   gsap.set('.page-wrapper', {
@@ -61,8 +62,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   fourthFoldIx()
 
-  preloaderIx()
+  // preloaderIx()
   benefitsIx()
+  sectionBenefitLastContainerIx()
   sectionStepsIx()
   sectionCertIx()
   formSvgIx()
